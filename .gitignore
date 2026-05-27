@@ -1,0 +1,14 @@
+.dart_tool/
+.pio/
+.vscode/
+build/
+*.log
+*.tmp
+
+app/.dart_tool/
+app/build/
+app/android/.gradle/
+app/android/local.properties
+
+firmware/.pio/
+firmware/.vscode/
