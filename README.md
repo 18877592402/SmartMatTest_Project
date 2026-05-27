@@ -20,6 +20,14 @@
 2. **数据传输**：测试仪通过 BLE 自动向外发送通知 (BLE notifications)。
 3. **状态判定**：当某个通道的平均 ADC 值**低于 `3000`** 时，App 端会将该通道的显示状态高亮，表明该位置的传感器触发正常（无损坏）。
 
+## 📲 下载与安装 (Download)
+
+你可以直接下载预编译好的安装包进行测试：
+
+1. 前往仓库右侧的 [Releases](https://github.com/18877592402/SmartMatTest_Project/releases) 页面。
+2. 找到最新发布版本，在 **Assets** 栏目下点击下载 `app-release.apk`。
+3. 在安卓手机上安装并打开（需开启 BLE 蓝牙权限）。
+
 ## 🛠️ 开发与编译环境 (Development Setup)
 
 ### 1. 固件端 (Firmware)
